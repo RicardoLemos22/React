@@ -5,9 +5,9 @@ export const ItemListContainer = ({greeting}) => {
     return (
         <>
         {
-        <div class="container bienvenidos-container">
+        <main class="container bienvenidos-container">
         <Texto greeting={greeting}></Texto>
-        </div>
+        </main>
         }
       </>
       )

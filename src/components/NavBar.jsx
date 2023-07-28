@@ -1,3 +1,4 @@
+import {CartWidget} from "./CartWidget.jsx"
 
 export const NavBar = () => {
     return (
@@ -29,16 +30,10 @@ export const NavBar = () => {
                     <li class="nav-item">
                         <a class="nav-link" href="#">Maquillaje</a>
                     </li>
+                    </ul>
 
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                        <i class="fas fa-shopping-bag fa-lg"></i>
-                        <span class="badge badge-pill badge-danger">5</span>
-                        </a>
-                    </li>
-                    </ul>
+                    <CartWidget numero={22}></CartWidget>
+
                 </div>
             </nav>
         }</>
