@@ -1,15 +1,16 @@
 // import './App.css'
 import {NavBar} from "./components/NavBar.jsx"
-
-
-const Texto = ({ parrafo }) => {
-  return <p>{parrafo}</p>
-}
+import {ItemListContainer} from "./components/ItemListContainer.jsx"
 
 function App() {
   return (
     <>
-      <Texto parrafo="Hola coders"></Texto>
+    {
+      <header>
+        <NavBar></NavBar>  
+      </header>
+    }
+      <ItemListContainer greeting="Bienvenidos"></ItemListContainer>
     </>
   )
 }
