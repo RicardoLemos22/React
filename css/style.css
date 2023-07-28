@@ -29,7 +29,7 @@
     /* background-color: #f0f0f0; /* Color de fondo del contenedor */
     margin-top: 20px; /* Espacio entre la navbar y el contenedor */
   }
-
+/*
 @media (max-width: 768px) {
     .navbar-collapse {
         justify-content: flex-end;
@@ -43,3 +43,4 @@
         margin-left: 10px;
     }
 }
+*/
