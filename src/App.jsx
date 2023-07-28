@@ -11,7 +11,11 @@ function App() {
         <NavBar></NavBar>  
       </header>
     }
-      <ItemListContainer greeting="Bienvenidos"></ItemListContainer>
+    {
+      <main class="container bienvenidos-container">
+        <ItemListContainer greeting="Bienvenidos"></ItemListContainer>
+      </main>
+    }      
     </>
   )
 }
