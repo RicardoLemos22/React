@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #f0f0f0 !important;
+  }
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand-container img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+.navbar-brand-text {
+    font-size: 23px;
+    /* font-size: 1rem; */
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px; /* Ajusta el tamaño del texto del menú */
+}
+
+.bienvenidos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Ajusta la altura del contenedor */
+    /* background-color: #f0f0f0; /* Color de fondo del contenedor */
+    margin-top: 20px; /* Espacio entre la navbar y el contenedor */
+  }
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 10px;
+    }
+}
