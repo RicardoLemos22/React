@@ -6,7 +6,7 @@ export const NavBar = () => {
             <nav class="navbar navbar-expand-md navbar-light bg-light bg-warning">
                 <a class="navbar-brand" href="#">
                     <div class="navbar-brand-container">
-                    <img src="./assets/elixir_logo.png" alt="Logo"/>
+                    <img src="../assets/elixir_logo.png" alt="Logo"/>
                     <span class="navbar-brand-text">Beauty Elixir</span>
                     </div>
                 </a>
