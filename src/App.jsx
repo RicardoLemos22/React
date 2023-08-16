@@ -13,7 +13,7 @@ function App() {
     }
     {
       <main class="container bienvenidos-container">
-        <ItemListContainer greeting="Bienvenidos"></ItemListContainer>
+        <ItemListContainer greeting="Catálogo de Productos"></ItemListContainer>
       </main>
     }      
     </>

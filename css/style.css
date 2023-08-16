@@ -22,14 +22,18 @@
 }
 
 .bienvenidos-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px; /* Ajusta la altura del contenedor */
-    /* background-color: #f0f0f0; /* Color de fondo del contenedor */
-    margin-top: 20px; /* Espacio entre la navbar y el contenedor */
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+  }
+
+  .producto-card {
+    border: none; /* Sin borde */
+    margin: 20px 0;
   }
 /*
+
 @media (max-width: 768px) {
     .navbar-collapse {
         justify-content: flex-end;

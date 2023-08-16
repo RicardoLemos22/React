@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catálogo de Productos</title>
-  <!-- Enlace a los archivos CSS de Bootstrap -->
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Enlace a la biblioteca de iconos (Font Awesome) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
   <style>
     /* Estilos adicionales personalizados */
     .navbar {
@@ -23,17 +23,6 @@
       font-size: 20px;
     }
 
-    .bienvenidos-container {
-      text-align: center; /* Alineación del texto al centro */
-      padding: 20px;
-      background-color: #f0f0f0;
-      margin-top: 20px;
-    }
-
-    .producto-card {
-      border: none; /* Sin borde */
-      margin: 20px 0;
-    }
   </style>
 </head>
 <body>
@@ -79,7 +68,7 @@
   </nav>
 
   <!-- Sección Catálogo de Productos -->
-  <div class="container bienvenidos-container">
+  <main class="container bienvenidos-container">
     <h2>Catálogo de Productos</h2>
     <div class="row">
       <!-- Tarjetas de Productos -->
@@ -94,7 +83,7 @@
               <span class="card-price font-weight-bold">$ 50</span>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
 
       <div class="col-md-3">
@@ -108,7 +97,7 @@
               <span class="card-price font-weight-bold">$ 50</span>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
       <div class="col-md-3">
         <div class="card producto-card">
@@ -121,7 +110,7 @@
               <span class="card-price font-weight-bold">$ 50</span>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
 
       <div class="col-md-3">
@@ -135,7 +124,7 @@
               <span class="card-price font-weight-bold">$ 50</span>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
 
       <div class="col-md-3">
@@ -149,7 +138,7 @@
               <span class="card-price font-weight-bold">$ 50</span>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
 
       <div class="col-md-3">
@@ -163,7 +152,7 @@
               <span class="card-price font-weight-bold">$ 50</span>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
       <div class="col-md-3">
         <div class="card producto-card">
@@ -176,7 +165,7 @@
               <span class="card-price font-weight-bold">$ 50</span>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
 
       <div class="col-md-3">
@@ -190,13 +179,12 @@
               <span class="card-price font-weight-bold">$ 50</span>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
 
     </div>
-  </div>
+  </main>
 
-  <!-- Enlaces a los archivos JS de Bootstrap y jQuery (requeridos para el funcionamiento del navbar) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
