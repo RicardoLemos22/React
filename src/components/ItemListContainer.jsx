@@ -10,9 +10,15 @@ export const ItemListContainer = ({greeting}) => {
           
         }
         <div class="row">
-          <ItemList></ItemList>
-          <ItemList></ItemList>
-          <ItemList></ItemList>
+          <ItemList numero={1}></ItemList>
+          <ItemList numero={2}></ItemList>
+          <ItemList numero={3}></ItemList>
+          <ItemList numero={4}></ItemList>
+
+          <ItemList numero={3}></ItemList>
+          <ItemList numero={4}></ItemList>
+          <ItemList numero={1}></ItemList>
+          <ItemList numero={2}></ItemList>
         </div>
       </>
       )
