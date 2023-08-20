@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto React | Beauty Elixir</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light bg-warning">
+        <a class="navbar-brand" href="#">
+          <div class="navbar-brand-container">
+            <img src="./assets/elixir_logo.png" alt="Logo" />
+            <span class="navbar-brand-text">Beauty Elixir</span>
+          </div>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cuidado Facial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cuidado Corporal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fragancias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Maquillaje</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-bag fa-lg"></i>
+                <span class="badge badge-pill badge-danger">5</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <main class="container bienvenidos-container">
+      <h2 class="product-title">Producto 1</h2>
+      <div class="row">
+        <div class="container">
+          <div class="product-details">
+            <div class="product-image">
+              <img
+                src="./assets/producto1.jpg"
+                alt="Producto"
+                class="img-fluid"
+              />
+            </div>
+            <div class="product-info">
+              <p class="product-description">
+                Descripción completa del producto. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Labore repudiandae, ut quasi
+                inventore quam vitae expedita, ab eos totam voluptates quas fuga
+                mollitia tempora et, tempore ipsa necessitatibus nobis laborum
+                corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam,
+                sunt corrupti accusamus velit, ab libero incidunt rerum, laborum
+                eos laudantium.
+              </p>
+              <div class="d-flex">
+                <p class="product-category">Categoría: Facial</p>
+                <p class="product-price">$ 25</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Enlaces a los archivos JS de Bootstrap y jQuery (requeridos para el funcionamiento de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

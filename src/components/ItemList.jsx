@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 export const ItemList = ({numero}) => {
     return (
@@ -9,7 +10,7 @@ export const ItemList = ({numero}) => {
                 <h5 class="card-title font-weight-bold">Producto {numero}</h5>
                 <p class="card-text">Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <div class="d-flex justify-content-between">
-                    <a href="#" class="btn btn-link">Ver Detalles</a>
+                    <Link to={`/item/${numero}`} class="btn btn-link">Ver Detalles</Link>
                     <span class="card-price font-weight-bold">$ 50</span>
                 </div>
                 </div>

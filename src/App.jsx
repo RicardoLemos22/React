@@ -1,22 +1,20 @@
 // import './App.css'
-import {NavBar} from "./components/NavBar.jsx"
-import {ItemListContainer} from "./components/ItemListContainer.jsx"
-
+import {BrowserRouter, Route, Routes} from "react-router-dom"
+import RutaHome from "./routes/RutaHome.jsx"
+import RutaCategoria from "./routes/RutaCategoria.jsx"
+import RutaArticulo from "./routes/RutaArticulo.jsx"
 
 function App() {
   return (
-    <>
-    {
-      <header>
-        <NavBar></NavBar>  
-      </header>
-    }
-    {
-      <main class="container bienvenidos-container">
-        <ItemListContainer greeting="Catálogo de Productos"></ItemListContainer>
-      </main>
-    }      
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="*" element={<RutaHome />} />
+        <Route exact path="/" element={<RutaHome />}/>
+        <Route exact path="/category/:idCategoria" element={<RutaCategoria />}/>
+        <Route path="/item/:idProducto" element={<RutaArticulo />}/>
+      </Routes>
+    </BrowserRouter>
+
   )
 }
 
