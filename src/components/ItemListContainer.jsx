@@ -1,39 +1,37 @@
-import {ItemList} from "../components/ItemList.jsx"
-//import {Link} from "react-router-dom"
-import {React, useEffect, useState } from 'react'
-import datosJSON from "../assets/articulos.json"
+import React from 'react'
+import {ItemList} from '../components/ItemList.jsx'
+import productos from "./productos.json"
 
 const Texto = ({ greeting }) => <h2>{greeting}</h2>
 
-export const ItemListContainer = ({greeting}) => {
-  const [articulos, setArticulos] = useState([]);
+export const ItemListContainer = ({greeting,categoria}) => {
 
-  useEffect(() => {
-    async function fetchArticulos() {
-      try {
-        const response = await fetch(datosJSON)
-        const data = await response.json()
-        setArticulos(data)
-      } catch (error) {
-        console.error('Error leyendo archivo local. Info: ', error)
+    const listaProd = () => {
+      if (categoria === "") {
+        return productos.map(art => (
+          <>
+          <ItemList key={art.id} numero={art.id}></ItemList>
+          </>
+        ));
+      } else {
+        return productos
+          .filter(art => art.idCategoria === categoria)
+          .map(art => (
+            <>
+            <ItemList key={art.id} numero={art.id}></ItemList>
+            </>
+          ));
       }
     }
-
-    fetchArticulos()
-  }, [])
-  
-    return (
+    
+  return (
         <>
         {
           <Texto greeting={greeting}></Texto>
-          
         }
         <div class="row">
-          {articulos.map((articulo) => (
-          <ItemList numero={articulo.id}></ItemList>
-          ))}
+          {listaProd()}
         </div>
       </>
       )
 }
-

@@ -19,7 +19,7 @@ function RutaArticulo () {
       }
       {
         <main class="container bienvenidos-container">
-          <ItemDetailContainer idProd={params.idProducto}></ItemDetailContainer>
+          <ItemDetailContainer idProd={Number(params.idProducto)}></ItemDetailContainer>
         </main>
       }      
       </>

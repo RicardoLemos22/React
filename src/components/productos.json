@@ -6,7 +6,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 25,
-    "img": "./assets/producto1.jpg"
+    "img": "../assets/producto1.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 35,
-    "img": "./assets/producto2.jpg"
+    "img": "../assets/producto2.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 45,
-    "img": "./assets/producto3.jpg"
+    "img": "../assets/producto3.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 55,
-    "img": "./assets/producto4.jpg"
+    "img": "../assets/producto4.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 65,
-    "img": "./assets/producto2.jpg"
+    "img": "../assets/producto2.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 75,
-    "img": "./assets/producto3.jpg"
+    "img": "../assets/producto3.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 85,
-    "img": "./assets/producto4.jpg"
+    "img": "../assets/producto4.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 95,
-    "img": "./assets/producto1.jpg"
+    "img": "../assets/producto1.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 105,
-    "img": "./assets/producto2.jpg"
+    "img": "../assets/producto2.jpg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 116,
-    "img": "./assets/producto3.jpg"
+    "img": "../assets/producto3.jpg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 127,
-    "img": "./assets/producto4.jpg"
+    "img": "../assets/producto4.jpg"
   },
   {
     "id": 12,
@@ -105,6 +105,6 @@
     "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
     "precio": 238,
-    "img": "./assets/producto1.jpg"
+    "img": "../assets/producto1.jpg"
   }
 ]

@@ -18,10 +18,10 @@ function RutaCategoria () {
       }
       {
         <main class="container bienvenidos-container">
-          <ItemListContainer greeting={"Catálogo de " + params.idCategoria}></ItemListContainer>
-          {/* usando: template literals
-              greeting={`Catálogo de ${params.idCategoria}`}
-          */}
+          <ItemListContainer 
+            greeting={"Catálogo de " + params.idCategoria}
+            categoria={params.idCategoria}>
+          </ItemListContainer>
         </main>
       }      
       </>

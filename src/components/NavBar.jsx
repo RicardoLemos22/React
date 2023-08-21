@@ -21,7 +21,6 @@ export const NavBar = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto ml-auto">
                     <li class="nav-item">
-                        {/* <a class="nav-link" href="#">Cuidado Facial</a> */}
                         <Link reloadDocument class="nav-link" to="/category/facial">Cuidado Facial</Link>
                     </li>
                     <li class="nav-item">
