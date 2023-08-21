@@ -1,8 +1,9 @@
 import {NavBar} from "../components/NavBar"
 import {ItemListContainer} from "../components/ItemListContainer.jsx"
-//import { useEffect } from "react"
+//import {useEffect} from "react"
 
-//'navega a <ItemListContainer'
+import {ArticulosList} from "../components/ArticulosList.jsx"
+
 function RutaHome () {
     return (
       <>
@@ -13,9 +14,9 @@ function RutaHome () {
       }
       {
         <main class="container bienvenidos-container">
-          <ItemListContainer greeting="Catálogo de Productos"></ItemListContainer>
+          <ItemListContainer greeting="Catálogo completo de Productos"></ItemListContainer>
         </main>
-      }      
+      }
       </>
     )
   }

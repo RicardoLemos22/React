@@ -1,15 +1,30 @@
-import { useEffect } from "react"
+import {useEffect} from "react"
+import {useParams} from "react-router-dom"
+import {NavBar} from "../components/NavBar"
+import {ItemListContainer} from "../components/ItemListContainer.jsx"
 
-//'navega a <ItemListContainer'
 function RutaCategoria () {
+    const params = useParams()
     useEffect(() => {
-      document.title="Titulo de RutaCategoria"
-    },[])  
+      document.title="Beauty Elixir | Categoria " + params.idCategoria
+    },[])
 
     return (
-      <div>
-        <h1>RutaCategoria</h1>
-      </div>
+      <>
+      {
+        <header>
+          <NavBar></NavBar>  
+        </header>
+      }
+      {
+        <main class="container bienvenidos-container">
+          <ItemListContainer greeting={"Catálogo de " + params.idCategoria}></ItemListContainer>
+          {/* usando: template literals
+              greeting={`Catálogo de ${params.idCategoria}`}
+          */}
+        </main>
+      }      
+      </>
     )
   }
   

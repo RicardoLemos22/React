@@ -1,8 +1,9 @@
-// import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import RutaHome from "./routes/RutaHome.jsx"
 import RutaCategoria from "./routes/RutaCategoria.jsx"
 import RutaArticulo from "./routes/RutaArticulo.jsx"
+
+// import './App.css'º
 
 function App() {
   return (
