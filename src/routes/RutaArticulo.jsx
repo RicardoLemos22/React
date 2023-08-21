@@ -7,7 +7,7 @@ import {useParams} from "react-router-dom"
 function RutaArticulo () {
     const params = useParams()
     useEffect(() => {
-      document.title="Beauty Elixir | Producto " + params.idProducto
+      document.title="Beauty Elixir | Producto " + params.id
     },[])
     
     return (
@@ -19,7 +19,7 @@ function RutaArticulo () {
       }
       {
         <main class="container bienvenidos-container">
-          <ItemDetailContainer idProd={Number(params.idProducto)}></ItemDetailContainer>
+          <ItemDetailContainer idProd={Number(params.id)}></ItemDetailContainer>
         </main>
       }      
       </>

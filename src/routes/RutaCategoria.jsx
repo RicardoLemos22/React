@@ -19,8 +19,8 @@ function RutaCategoria () {
       {
         <main class="container bienvenidos-container">
           <ItemListContainer 
-            greeting={"Catálogo de " + params.idCategoria}
-            categoria={params.idCategoria}>
+            greeting={"Catálogo de " + params.id}
+            categoria={params.id}>
           </ItemListContainer>
         </main>
       }      

@@ -12,7 +12,7 @@ export const ItemListContainer = ({greeting,categoria}) => {
           <>
           <ItemList key={art.id} numero={art.id}></ItemList>
           </>
-        ));
+        ))
       } else {
         return productos
           .filter(art => art.idCategoria === categoria)

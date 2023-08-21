@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="*" element={<RutaHome />} />
         <Route exact path="/" element={<RutaHome />}/>
-        <Route exact path="/category/:idCategoria" element={<RutaCategoria />}/>
-        <Route path="/item/:idProducto" element={<RutaArticulo />}/>
+        <Route exact path="/category/:id" element={<RutaCategoria />}/>
+        <Route path="/item/:id" element={<RutaArticulo />}/>
       </Routes>
     </BrowserRouter>
 
