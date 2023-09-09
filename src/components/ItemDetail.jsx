@@ -20,21 +20,21 @@ const ItemDetail = ( {item} ) => {
 
   return (
     <>
-    <h2 class="product-title">{item.nombre}</h2>
-    <div class="row">
-      <div class="container">
-        <div class="product-details">
-          <div class="product-image">
-            <img src={item.img} class="img-fluid" 
+    <h2 className="product-title">{item.nombre}</h2>
+    <div className="row">
+      <div className="container">
+        <div className="product-details">
+          <div className="product-image">
+            <img src={item.img} className="img-fluid" 
                  alt={`Producto ${item.nombre}`} /> 
           </div>
-          <div class="product-info">
-            <p class="product-description">
+          <div className="product-info">
+            <p className="product-description">
               {item.descripcion2}
             </p>
-            <div class="d-flex">
-              <p class="product-category">Categoría: {item.idCategoria}</p>
-              <p class="product-price">$ {item.precio}</p>
+            <div className="d-flex">
+              <p className="product-category">Categoría: {item.idCategoria}</p>
+              <p className="product-price">$ {item.precio}</p>
               <ItemCount
                   cantidad={cantidad}
                   handleSumar={handleSumar}

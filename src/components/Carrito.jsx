@@ -13,15 +13,16 @@ const Carrito = () => {
   return (
     <div className="container">
         <h1 className="main-title">Carrito</h1>
-
+        <br />
+        <br />
         {
             carrito.map((prod) => (
-                <div key={prod.id}>
+                <div key={prod.id} className="product-details">
                     <br />
-                    <h3>{prod.titulo}</h3>
-                    <p>Precio unit: ${prod.precio}</p>
-                    <p>Precio total: ${prod.precio * prod.cantidad}</p>
-                    <p>Cant: {prod.cantidad}</p>
+                    <h4 className="product-info">{prod.nombre}</h4>
+                    <p className="product-info">Precio unit: $ {prod.precio}</p>
+                    <p className="product-info">Cant: {prod.cantidad}</p>
+                    <p className="product-info">Precio total: $ {prod.precio * prod.cantidad}</p>
                     <br />
                 </div>
             ))
@@ -31,10 +32,10 @@ const Carrito = () => {
             carrito.length > 0 ?
             <>
                 <h2>Precio total: ${precioTotal()}</h2>
-                <button onClick={handleVaciar}>Vaciar</button>
+                <button className='btn btn-outline-secondary btn-sm mr-3' onClick={handleVaciar}>Vaciar</button>
                 <Link to="/checkout">Finalizar compra</Link>
             </> :
-            <h2>El carrito está vacío :(</h2>
+            <h2>El carrito de compras se encuentra vacío</h2>
         }
         
     </div>
