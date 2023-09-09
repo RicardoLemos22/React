@@ -22,6 +22,13 @@ export const ItemDetailContainer = ({idProd}) => {
             <div class="d-flex">
               <p class="product-category">Categoría: {unProd.idCategoria}</p>
               <p class="product-price">$ {unProd.precio}</p>
+              
+              <div class="item-count d-flex align-items-center ml-5" style={{height: '2rem'}}>
+                <button class="btn btn-outline-secondary btn-sm">-</button>
+                <p class="mx-2 d-flex align-items-center">5</p>
+                <button class="btn btn-outline-secondary btn-sm">+</button>
+              </div>
+
             </div>
           </div>
         </div>

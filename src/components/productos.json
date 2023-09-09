@@ -2,109 +2,253 @@
   {
     "id": 1,
     "idCategoria": "facial",
-    "nombre": "Serum",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 25,
+    "nombre": "Serum Antiedad",
+    "descripcion1": "Reduce arrugas y rejuvenece la piel.",
+    "descripcion2": "Nuestro serum antiedad está formulado con ingredientes naturales para combatir los signos de envejecimiento. Hidrata profundamente y suaviza la piel, reduciendo arrugas y líneas de expresión. ¡Recupera tu juventud!",
+    "precio": 30,
     "img": "https://ricardolemos22.github.io/React/assets/producto1.jpg"
   },
   {
     "id": 2,
     "idCategoria": "facial",
-    "nombre": "Gel de limpieza",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 35,
+    "nombre": "Limpiador Facial",
+    "descripcion1": "Limpieza profunda y suave.",
+    "descripcion2": "Nuestro limpiador facial elimina eficazmente las impurezas y el maquillaje, dejando la piel fresca y radiante. Ideal para todo tipo de piel, incluso las sensibles.",
+    "precio": 12,
     "img": "https://ricardolemos22.github.io/React/assets/producto2.jpg"
   },
   {
     "id": 3,
     "idCategoria": "facial",
-    "nombre": "Crema hidratante",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 45,
+    "nombre": "Mascarilla Revitalizante",
+    "descripcion1": "Piel renovada en minutos.",
+    "descripcion2": "Experimenta una piel radiante con nuestra mascarilla revitalizante. Enriquecida con vitaminas y extractos botánicos, rejuvenece y revitaliza tu cutis en minutos.",
+    "precio": 18,
     "img": "https://ricardolemos22.github.io/React/assets/producto3.jpg"
   },
   {
     "id": 4,
-    "idCategoria": "corporal",
-    "nombre": "Crema de baño",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 55,
+    "idCategoria": "facial",
+    "nombre": "Crema Hidratante SPF 30",
+    "descripcion1": "Protege y nutre tu piel.",
+    "descripcion2": "Nuestra crema hidratante con SPF 30 proporciona una hidratación duradera mientras protege tu piel de los daños causados por el sol. Una fórmula ligera y no grasa que es perfecta para el uso diario.",
+    "precio": 25,
     "img": "https://ricardolemos22.github.io/React/assets/producto4.jpg"
   },
   {
     "id": 5,
-    "idCategoria": "corporal",
-    "nombre": "Exfoliante corporal",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 65,
-    "img": "https://ricardolemos22.github.io/React/assets/producto2.jpg"
+    "idCategoria": "facial",
+    "nombre": "Tónico Hidratante",
+    "descripcion1": "Hidratación instantánea.",
+    "descripcion2": "Nuestro tónico hidratante refresca la piel y proporciona una hidratación instantánea. Ideal para revitalizar la piel durante el día.",
+    "precio": 15,
+    "img": "https://ricardolemos22.github.io/React/assets/producto1.jpg"
   },
   {
     "id": 6,
-    "idCategoria": "corporal",
-    "nombre": "Crema para todo el cuerpo",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 75,
-    "img": "https://ricardolemos22.github.io/React/assets/producto3.jpg"
-  },
-  {
-    "id": 7,
-    "idCategoria": "fragancias",
-    "nombre": "Calvin Klein",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 85,
-    "img": "https://ricardolemos22.github.io/React/assets/producto4.jpg"
-  },
-  {
-    "id": 8,
-    "idCategoria": "fragancias",
-    "nombre": "Hugo Boss",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 95,
-    "img": "https://ricardolemos22.github.io/React/assets/producto1.jpg"
-  },
-  {
-    "id": 9,
-    "idCategoria": "maquillaje",
-    "nombre": "Base líquida",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 105,
+    "idCategoria": "facial",
+    "nombre": "Crema Anti-Acné",
+    "descripcion1": "Combate las imperfecciones.",
+    "descripcion2": "Nuestra crema anti-acné está formulada para combatir las imperfecciones y los granitos, dejando la piel más clara y suave. Perfecta para pieles propensas al acné.",
+    "precio": 18,
     "img": "https://ricardolemos22.github.io/React/assets/producto2.jpg"
   },
   {
-    "id": 10,
-    "idCategoria": "maquillaje",
-    "nombre": "Rimel",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 116,
+    "id": 7,
+    "idCategoria": "facial",
+    "nombre": "Mascarilla de Arcilla Purificante",
+    "descripcion1": "Limpieza profunda.",
+    "descripcion2": "Experimenta una limpieza profunda con nuestra mascarilla de arcilla purificante. Elimina el exceso de grasa y las impurezas, dejando la piel fresca y mate.",
+    "precio": 20,
     "img": "https://ricardolemos22.github.io/React/assets/producto3.jpg"
   },
   {
-    "id": 11,
-    "idCategoria": "maquillaje",
-    "nombre": "Sombra vegana",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 127,
+    "id": 8,
+    "idCategoria": "corporal",
+    "nombre": "Aceite de Masaje Relajante",
+    "descripcion1": "Alivia el estrés y la tensión.",
+    "descripcion2": "Disfruta de un masaje relajante en casa con nuestro aceite de masaje. Su fórmula suave y aromática calma los músculos y alivia el estrés.",
+    "precio": 15,
     "img": "https://ricardolemos22.github.io/React/assets/producto4.jpg"
   },
   {
-    "id": 12,
-    "idCategoria": "maquillaje",
-    "nombre": "Labial",
-    "descripcion1": "Descripción breve del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descripcion2": "Descripción completa del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae, ut quasi inventore quam vitae expedita, ab eos totam voluptates quas fuga mollitia tempora et, tempore ipsa necessitatibus nobis laborum corrupti cumque quis pariatur aliquid odio quod! Quod quibusdam, sunt corrupti accusamus velit, ab libero incidunt rerum, laborum eos laudantium.",
-    "precio": 238,
+    "id": 9,
+    "idCategoria": "corporal",
+    "nombre": "Crema Corporal Nutritiva",
+    "descripcion1": "Piel suave y sedosa.",
+    "descripcion2": "Nuestra crema corporal nutre la piel en profundidad, dejándola suave y sedosa. La fórmula enriquecida con vitaminas y manteca de karité proporciona una hidratación duradera.",
+    "precio": 20,
     "img": "https://ricardolemos22.github.io/React/assets/producto1.jpg"
+  },
+  {
+    "id": 10,
+    "idCategoria": "corporal",
+    "nombre": "Exfoliante Corporal",
+    "descripcion1": "Renueva tu piel.",
+    "descripcion2": "Elimina las células muertas de la piel y revela una tez más radiante con nuestro exfoliante corporal. Enriquecido con ingredientes naturales, deja la piel suave y revitalizada.",
+    "precio": 14,
+    "img": "https://ricardolemos22.github.io/React/assets/producto2.jpg"
+  },
+  {
+    "id": 11,
+    "idCategoria": "corporal",
+    "nombre": "Loción Reafirmante",
+    "descripcion1": "Piel firme y tonificada.",
+    "descripcion2": "Nuestra loción reafirmante ayuda a mejorar la elasticidad de la piel, dejándola firme y tonificada. Ideal para áreas propensas a la flacidez.",
+    "precio": 28,
+    "img": "https://ricardolemos22.github.io/React/assets/producto3.jpg"
+  },
+  {
+    "id": 12,
+    "idCategoria": "corporal",
+    "nombre": "Aceite Esencial Relajante",
+    "descripcion1": "Tranquilidad en cada gota.",
+    "descripcion2": "Nuestro aceite esencial relajante calma la mente y el cuerpo. Agrega unas gotas a tu baño o masaje para una experiencia relajante.",
+    "precio": 10,
+    "img": "https://ricardolemos22.github.io/React/assets/producto4.jpg"
+  },
+  {
+    "id": 13,
+    "idCategoria": "corporal",
+    "nombre": "Loción Corporal Reafirmante",
+    "descripcion1": "Firmeza y suavidad.",
+    "descripcion2": "Nuestra loción corporal reafirmante mejora la firmeza de la piel mientras la mantiene suave e hidratada. Un lujo para la piel.",
+    "precio": 22,
+    "img": "https://ricardolemos22.github.io/React/assets/producto1.jpg"
+  },
+  {
+    "id": 14,
+    "idCategoria": "corporal",
+    "nombre": "Jabón Exfoliante de Coco",
+    "descripcion1": "Suavidad tropical.",
+    "descripcion2": "Nuestro jabón exfoliante de coco suaviza y renueva la piel con su aroma tropical y exfoliación suave. Un placer para los sentidos.",
+    "precio": 8,
+    "img": "https://ricardolemos22.github.io/React/assets/producto2.jpg"
+  },
+  {
+    "id": 15,
+    "idCategoria": "fragancias",
+    "nombre": "Perfume Floral Fresco",
+    "descripcion1": "Fragancia floral y refrescante.",
+    "descripcion2": "Nuestra fragancia floral fresca combina notas de flores silvestres y cítricos, creando una experiencia olfativa refrescante y femenina.",
+    "precio": 45,
+    "img": "https://ricardolemos22.github.io/React/assets/producto3.jpg"
+  },
+  {
+    "id": 16,
+    "idCategoria": "fragancias",
+    "nombre": "Eau de Parfum Seductor",
+    "descripcion1": "Atracción irresistible.",
+    "descripcion2": "Conviértete en el centro de atención con nuestro Eau de Parfum seductor. Una fragancia envolvente con notas de vainilla y ámbar que despierta la pasión.",
+    "precio": 60,
+    "img": "https://ricardolemos22.github.io/React/assets/producto4.jpg"
+  },
+  {
+    "id": 17,
+    "idCategoria": "fragancias",
+    "nombre": "Perfume Masculino Clásico",
+    "descripcion1": "Elegante y atemporal.",
+    "descripcion2": "Nuestro perfume masculino clásico es una fragancia elegante y atemporal con notas de madera y especias. Perfecto para el hombre sofisticado.",
+    "precio": 50,
+    "img": "https://ricardolemos22.github.io/React/assets/producto1.jpg"
+  },
+  {
+    "id": 18,
+    "idCategoria": "fragancias",
+    "nombre": "Fragancia Unisex Fresca",
+    "descripcion1": "Para él y para ella.",
+    "descripcion2": "Una fragancia fresca y versátil que se adapta tanto a hombres como a mujeres. Notas cítricas y herbales crean una experiencia única.",
+    "precio": 35,
+    "img": "https://ricardolemos22.github.io/React/assets/producto2.jpg"
+  },
+  {
+    "id": 19,
+    "idCategoria": "fragancias",
+    "nombre": "Perfume de Verano",
+    "descripcion1": "Frescura estival.",
+    "descripcion2": "Nuestro perfume de verano captura la frescura y la vitalidad de la temporada. Notas cítricas y florales te transportarán a días soleados.",
+    "precio": 55,
+    "img": "https://ricardolemos22.github.io/React/assets/producto3.jpg"
+  },
+  {
+    "id": 20,
+    "idCategoria": "fragancias",
+    "nombre": "Eau de Toilette Clásico",
+    "descripcion1": "Elegancia atemporal.",
+    "descripcion2": "Un clásico atemporal, nuestro Eau de Toilette ofrece una fragancia elegante y sofisticada para hombres y mujeres que aprecian la calidad.",
+    "precio": 70,
+    "img": "https://ricardolemos22.github.io/React/assets/producto4.jpg"
+  },
+  {
+    "id": 21,
+    "idCategoria": "fragancias",
+    "nombre": "Perfume de Noche",
+    "descripcion1": "Misterio y seducción.",
+    "descripcion2": "Nuestro perfume de noche combina notas de madera y especias para una fragancia seductora y misteriosa, perfecta para las noches especiales.",
+    "precio": 75,
+    "img": "https://ricardolemos22.github.io/React/assets/producto1.jpg"
+  },
+  {
+    "id": 22,
+    "idCategoria": "maquillaje",
+    "nombre": "Base Líquida Natural",
+    "descripcion1": "Acabado impecable.",
+    "descripcion2": "Nuestra base líquida natural proporciona una cobertura impecable y un acabado radiante. Se mezcla fácilmente para un aspecto natural.",
+    "precio": 20,
+    "img": "https://ricardolemos22.github.io/React/assets/producto2.jpg"
+  },
+  {
+    "id": 23,
+    "idCategoria": "maquillaje",
+    "nombre": "Paleta de Sombras Nude",
+    "descripcion1": "Tonos versátiles para cualquier ocasión.",
+    "descripcion2": "Crea looks impresionantes con nuestra paleta de sombras nude. Desde tonos suaves para el día hasta ahumados para la noche.",
+    "precio": 15,
+    "img": "https://ricardolemos22.github.io/React/assets/producto3.jpg"
+  },
+  {
+    "id": 24,
+    "idCategoria": "maquillaje",
+    "nombre": "Labial de Larga Duración",
+    "descripcion1": "Color duradero y vibrante.",
+    "descripcion2": "Nuestro labial de larga duración ofrece un color vibrante que dura todo el día. Disponible en una variedad de tonos.",
+    "precio": 12,
+    "img": "https://ricardolemos22.github.io/React/assets/producto4.jpg"
+  },
+  {
+    "id": 25,
+    "idCategoria": "maquillaje",
+    "nombre": "Delineador de Ojos Preciso",
+    "descripcion1": "Líneas definidas con facilidad.",
+    "descripcion2": "Nuestro delineador de ojos preciso permite crear líneas definidas con facilidad. La fórmula resistente al agua garantiza una duración duradera.",
+    "precio": 8,
+    "img": "https://ricardolemos22.github.io/React/assets/producto1.jpg"
+  },
+  {
+    "id": 26,
+    "idCategoria": "maquillaje",
+    "nombre": "Corrector Líquido",
+    "descripcion1": "Oculta imperfecciones.",
+    "descripcion2": "Nuestro corrector líquido oculta imperfecciones y ojeras, dejando una piel impecable. Fácil de aplicar y mezclar.",
+    "precio": 10,
+    "img": "https://ricardolemos22.github.io/React/assets/producto2.jpg"
+  },
+  {
+    "id": 27,
+    "idCategoria": "maquillaje",
+    "nombre": "Rubor en Polvo",
+    "descripcion1": "Toque de color natural.",
+    "descripcion2": "Nuestro rubor en polvo agrega un toque de color natural a tus mejillas. Fórmula duradera para un aspecto fresco durante todo el día.",
+    "precio": 12,
+    "img": "https://ricardolemos22.github.io/React/assets/producto3.jpg"
+  },
+  {
+    "id": 28,
+    "idCategoria": "maquillaje",
+    "nombre": "Pincel de maquillaje Profesional",
+    "descripcion1": "Herramienta imprescindible.",
+    "descripcion2": "Nuestro pincel de maquillaje profesional es esencial para una aplicación precisa y uniforme de tus productos favoritos. Cerdas suaves y duraderas.",
+    "precio": 15,
+    "img": "https://ricardolemos22.github.io/React/assets/producto4.jpg"
   }
 ]
