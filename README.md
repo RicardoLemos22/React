@@ -1,8 +1,20 @@
-# React + Vite
+# Beauty Elixir
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Este proyecto es para el curso de React JS de CoderHouse<br>
+Comisión 47130 - alumno: Ricardo Lemos.<br>
+El E-commerce elegido es de productos para el cuidado del cuerpo.
+La tienda se llama "Beauty Elixir" y ofrece productos de cuidado facial, corporal, fragancias y maquillaje.
+<br>Sitio deployado en: https://proyecto-lemos.vercel.app/
 
-Currently, two official plugins are available:
+---
+## Tecnologías y herramientas aprendidas en el curso
+- JSX, componentes
+- Manejo de promesas, asincronía y MAP
+- Como consumir API's
+- Hooks, routing, eventos, context
+- Técnicas de rendering
+- Firebase de Google
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+[![Beauty Elixir](https://ehiglobal.com.ar/assets/ricardo/logo_readme.png "Beauty Elixir")](https://proyecto-lemos.vercel.app/ "Beauty Elixir")
+---

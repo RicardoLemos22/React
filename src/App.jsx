@@ -1,21 +1,38 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom"
-import RutaHome from "./routes/RutaHome.jsx"
-import RutaCategoria from "./routes/RutaCategoria.jsx"
-import RutaArticulo from "./routes/RutaArticulo.jsx"
+import "./style.css"
 
-// import './App.css'º
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+
+import { CartProvider } from "./context/CartContext"
+import Navbar from "./components/Navbar"
+import ItemDetailContainer from "./components/ItemDetailContainer"
+import ItemListContainer from "./components/ItemListContainer"
+import Carrito from "./components/Carrito"
+import Checkout from "./components/Checkout"
+
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="*" element={<RutaHome />} />
-        <Route exact path="/" element={<RutaHome />}/>
-        <Route exact path="/category/:id" element={<RutaCategoria />}/>
-        <Route path="/item/:id" element={<RutaArticulo />}/>
-      </Routes>
-    </BrowserRouter>
-
+    <>
+      <CartProvider>
+        <BrowserRouter>
+          <header>
+            <Navbar />
+          </header>
+          
+          <main className="container bienvenidos-container">
+            <Routes>
+              <Route path="/" element={<ItemListContainer />} />
+              <Route path="/item/:id" element={<ItemDetailContainer />}/>
+              <Route path="/categories" element={<ItemListContainer />} />
+              <Route path="/categories/:categoria" element={<ItemListContainer />} />
+              <Route path="/carrito" element={<Carrito />}/>
+              <Route path="/checkout" element={<Checkout />}/>
+            </Routes>
+          </main>
+          
+        </BrowserRouter>
+      </CartProvider>
+    </>
   )
 }
 

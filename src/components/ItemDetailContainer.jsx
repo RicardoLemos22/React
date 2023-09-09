@@ -1,41 +1,33 @@
-//import { Link } from "react-router-dom"
-import productos from "./productos.json"
+import { useEffect, useState } from "react"
+import ItemDetail from "./ItemDetail";
+import { useParams } from "react-router-dom";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase/client";
 
 
-export const ItemDetailContainer = ({idProd}) => {
-  const unProd = productos.find(articulo => articulo.id === idProd)
+const ItemDetailContainer = () => {
+
+    const [item, setItem] = useState(null);
+    const id = useParams().id;
+
+    useEffect(() => {
+
+      const docRef = doc(db, "productos", id);
+      getDoc(docRef)
+        .then((resp) => {
+          setItem(
+            { ...resp.data(), id: resp.id }
+          );
+        })
+
+    }, [id])
+    
 
   return (
-  <>
-    <h2 class="product-title">{unProd.nombre}</h2>
-    <div class="row">
-      <div class="container">
-        <div class="product-details">
-          <div class="product-image">
-            <img src={unProd.img} class="img-fluid" 
-                 alt={`Producto ${unProd.nombre}`} /> 
-          </div>
-          <div class="product-info">
-            <p class="product-description">
-              {unProd.descripcion2}
-            </p>
-            <div class="d-flex">
-              <p class="product-category">Categoría: {unProd.idCategoria}</p>
-              <p class="product-price">$ {unProd.precio}</p>
-              
-              <div>
-              <div class="item-count d-flex align-items-center ml-5" style={{height: '2rem'}}>
-                <button class="btn btn-outline-secondary btn-sm">-</button>
-                <p class="mx-2 d-flex align-items-center">5</p>
-                <button class="btn btn-outline-secondary btn-sm">+</button>
-              </div>
-              <button className="btn btn-outline-secondary btn-sm d-flex align-items-center ml-5" >Agregar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div>
+        {item && <ItemDetail item={item} />}
     </div>
-  </>
-)
+  )
 }
+
+export default ItemDetailContainer

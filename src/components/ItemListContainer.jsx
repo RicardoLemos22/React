@@ -1,37 +1,42 @@
-import React from 'react'
-import {ItemList} from '../components/ItemList.jsx'
-import productos from "./productos.json"
+import { useEffect, useState } from "react";
+import ItemList from "./ItemList";
+import { useParams } from "react-router-dom";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../firebase/client";
 
-const Texto = ({ greeting }) => <h2>{greeting}</h2>
+const ItemListContainer = () => {
 
-export const ItemListContainer = ({greeting,categoria}) => {
+    const [productos, setProductos] = useState([]);
 
-    const listaProd = () => {
-      if (categoria === "") {
-        return productos.map(art => (
-          <>
-          <ItemList key={art.id} numero={art.id}></ItemList>
-          </>
-        ))
-      } else {
-        return productos
-          .filter(art => art.idCategoria === categoria)
-          .map(art => (
-            <>
-            <ItemList key={art.id} numero={art.id}></ItemList>
-            </>
-          ));
-      }
-    }
+    const categoria = useParams().categoria;
+    //const [titulo] = useState("Catálogo completo de Productos");
+    const [titulo, setTitulo] = useState((categoria || "") === "" ? "Catálogo completo de Productos" : "Catálogo de " + categoria);
+    
+
+
+    useEffect(() => {
+
+      const productosRef = collection(db, "productos");
+      const q = categoria ? query(productosRef, where("idCategoria", "==", categoria)) : productosRef;
+
+      getDocs(q)
+        .then((resp) => {
+
+          setProductos(
+            resp.docs.map((doc) => {
+              return { ...doc.data(), id: doc.id }
+            })
+          )
+        })
+        
+    }, [categoria])
+    
     
   return (
-        <>
-        {
-          <Texto greeting={greeting}></Texto>
-        }
-        <div class="row">
-          {listaProd()}
-        </div>
-      </>
-      )
+    <div>
+        <ItemList productos={productos} titulo={titulo} />
+    </div>
+  )
 }
+
+export default ItemListContainer

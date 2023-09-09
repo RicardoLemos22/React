@@ -1,17 +1,21 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { initializeApp } from "firebase/app"
+import { getFirestore } from "firebase/firestore"
 
-// Your web app's Firebase configuration
+const apiKey = import.meta.env.VITE_apiKey;
+const authDomain = import.meta.env.VITE_authDomain;
+const projectId = import.meta.env.VITE_projectId;
+const storageBucket = import.meta.env.VITE_storageBucket;
+const messagingSenderId = import.meta.env.VITE_messagingSenderId;
+const appId = import.meta.env.VITE_appId;
+
 const firebaseConfig = {
-  apiKey: "AIzaSyC7R4UnlK--AJ3mbRXvGuFY4CVJsiKPKww",
-  authDomain: "beauty-elixir.firebaseapp.com",
-  projectId: "beauty-elixir",
-  storageBucket: "beauty-elixir.appspot.com",
-  messagingSenderId: "834427611803",
-  appId: "1:834427611803:web:e79e8fce4cadac8371343e"
-};
+  apiKey,
+  authDomain,
+  projectId,
+  storageBucket,
+  messagingSenderId,
+  appId,
+}
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig)
+export const db = getFirestore(app)
