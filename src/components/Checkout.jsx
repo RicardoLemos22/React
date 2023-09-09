@@ -1,19 +1,19 @@
 ﻿//npm install react-hook-form
 
 import React, { useContext, useState } from 'react'
-import { CartContext } from '../context/CartContext';
-import { useForm } from 'react-hook-form';
-import { collection, addDoc } from "firebase/firestore";
-import { db } from '../firebase/client';
+import { CartContext } from '../context/CartContext'
+import { useForm } from 'react-hook-form'
+import { collection, addDoc } from "firebase/firestore"
+import { db } from '../firebase/client'
 
 const Checkout = () => {
 
     
-    const [pedidoId, setPedidoId] = useState("");
+    const [pedidoId, setPedidoId] = useState("")
 
-    const { carrito, precioTotal, vaciarCarrito } = useContext(CartContext);
+    const { carrito, precioTotal, vaciarCarrito } = useContext(CartContext)
 
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit } = useForm()
 
     const comprar = (data) => {
         const pedido = {
@@ -21,14 +21,14 @@ const Checkout = () => {
             productos: carrito,
             total: precioTotal()
         }
-        console.log(pedido);
+        // console.log(pedido)
 
-        const pedidosRef = collection(db, "pedidos");
+        const pedidosRef = collection(db, "pedidos")
 
         addDoc(pedidosRef, pedido)
             .then((doc) => {
-                setPedidoId(doc.id);
-                vaciarCarrito();
+                setPedidoId(doc.id)
+                vaciarCarrito()
             })
 
     }

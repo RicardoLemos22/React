@@ -6,23 +6,10 @@ import CartWidget from './CartWidget'
 const Navbar = () => {
   return (
 
-    // <nav className="navbar">
-    //     <Link to="/" className="logo"><h1>Carpishop</h1></Link>
-    //     <ul className="menu">
-    //         <li><Link className="menu-link" to="/">Inicio</Link></li>
-    //         <li><Link className="menu-link" to="/productos">Productos</Link></li>
-    //         <li><Link className="menu-link" to="/productos/medias">Medias</Link></li>
-    //         <li><Link className="menu-link" to="/productos/pantalones">Pantalones</Link></li>
-    //         <li><Link className="menu-link" to="/productos/remeras">Remeras</Link></li>
-    //         <li><Link className="menu-link" to="/productos/buzos">Buzos</Link></li>
-    //         <li><CartWidget /></li>
-    //     </ul>
-    // </nav>
-
     <nav className="navbar navbar-expand-md navbar-light bg-light bg-warning">
-      <Link to="/" className="navbar-brand" reloadDocument>
+      <Link to="/" className="navbar-brand">
           <div className="navbar-brand-container">
-              <img src="https://ehiglobal.com.ar/assets/ricardo/elixir_logo.png" alt="Logo"/>
+              <img src="https://ehiglobal.com.ar/assets/ricardo/elixir_logo.png" alt="Beauty Elixir"/>
               <span className="navbar-brand-text">Beauty Elixir</span>
           </div>
       </Link>
@@ -35,16 +22,16 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto ml-auto">
         <li className="nav-item">
-            <Link reloadDocument className="nav-link" to="/categories/facial">Cuidado Facial</Link>
+            <Link className="nav-link" to="/categories/facial">Cuidado Facial</Link>
         </li>
         <li className="nav-item">
-            <Link reloadDocument className="nav-link" to="/categories/corporal">Cuidado Corporal</Link>
+            <Link className="nav-link" to="/categories/corporal">Cuidado Corporal</Link>
         </li>
         <li className="nav-item">
-            <Link reloadDocument className="nav-link" to="/categories/fragancias">Fragancias</Link>
+            <Link className="nav-link" to="/categories/fragancias">Fragancias</Link>
         </li>
         <li className="nav-item">
-            <Link reloadDocument className="nav-link" to="/categories/maquillaje">Maquillaje</Link>
+            <Link className="nav-link" to="/categories/maquillaje">Maquillaje</Link>
         </li>
         </ul>
 
